@@ -8,14 +8,24 @@
   <body>
     <div class="container wrapper">
       <div id="top">
-        <h1>Welcome to 22100685's Homepage</h1>
+        <h1>Welcome to Eunchan's Homepage (22100685)</h1>
         <p>Use the menu to select different Stylesheets</p>
       </div>
       <div class="wrapper">
         <div id="menubar">
           <ul id="menulist">
-            <li class="menuitem" onclick="reStyle(0)">Stylesheet 1</li>
-            <li class="menuitem" onclick="reStyle(1)">Stylesheet 2</li>
+            <li class="menuitem" onclick="location.href='style1.htm'">
+              Stylesheet 1
+            </li>
+            <li class="menuitem" onclick="location.href='style2.htm'">
+              Stylesheet 2
+            </li>
+            <li class="menuitem" onclick="location.href='example.htm'">
+              Bootstrap Example
+            </li>
+            <li class="menuitem" onclick="location.href='index.htm'">
+              No Stylesheet
+            </li>
           </ul>
         </div>
         <div id="main">
@@ -24,9 +34,16 @@
             This is a demonstration of how different stylesheets can change the
             layout of your HTML page. You can change the layout of this page by
             selecting different stylesheets in the menu, or by selecting one of
-            the following links:<br />
-            <a href="#" onclick="reStyle(0);return false">Stylesheet1</a>,
-            <a href="#" onclick="reStyle(1);return false">Stylesheet2</a>,
+            the following links (including No Style):<br />
+            <a href="style1.htm">Stylesheet1</a>,
+            <a href="style2.htm">Stylesheet2</a>,
+            <a href="example.htm">Example</a>.
+          </p>
+          <h2>No Styles</h2>
+          <p>
+            This page uses DIV elements to group different sections of the HTML
+            page. Click here to see how the page looks like with no
+            stylesheet:<br /><a href="index.htm">No Stylesheet</a>.
           </p>
         </div>
         <div id="sidebar">
